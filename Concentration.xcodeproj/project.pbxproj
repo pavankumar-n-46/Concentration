@@ -64,9 +64,9 @@
 		913BB9C123647AC80088B390 /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
+				913BB9D623647C180088B390 /* Supporting files */,
 				9146C1E823685220008757ED /* Extensions */,
 				91C13CC82367F549002E6C7A /* Model */,
-				913BB9D623647C180088B390 /* Supporting files */,
 				9146C1E923685231008757ED /* Controller */,
 				913BB9C823647AC80088B390 /* Main.storyboard */,
 				913BB9D023647AC90088B390 /* Info.plist */,

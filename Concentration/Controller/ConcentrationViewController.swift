@@ -22,8 +22,8 @@ class ConcentrationViewController: UIViewController {
             updateFlipCount()
         }
     }
-    let emojiList = "👻🎃😈🤖🙀👽👾🤡👀"
-    private lazy var emojiChoices = emojiList
+    
+    private lazy var emojiChoices = "👻🎃😈🤖🙀👽👾🤡👀🥶👹☠️"
     private var emoji = [Card:String]()
     
     var theme : String? {
@@ -47,7 +47,7 @@ class ConcentrationViewController: UIViewController {
     @IBAction private func newGamePressed(_ sender: Any) {
         self.game = Concentration(numberOfPairsOfCard: (cardButtons.count + 1) / 2)
         self.flipCount = 0
-        self.emojiChoices = emojiList
+        self.emojiChoices = theme ?? ""
         updateViewFromModel()
     }
     
